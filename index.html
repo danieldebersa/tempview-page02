@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Agrega aquí tus enlaces a CSS, fuentes, etc. -->
+</head>
+<body>
+    <!-- Contenido de tu página web -->
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
+
+    <!-- If you are using any other services, add the SDKs for those services here -->
+    <!-- Ejemplo: Firebase Authentication -->
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js"></script>
+    <!-- Ejemplo: Cloud Firestore -->
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-firestore.js"></script>
+
+    <script>
+        // Tu configuración de Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyC4Gi2Q2rm0TRAhUZFKWZAnH5HPM1yF4kk",
+            authDomain: "esp8266dht11-database.firebaseapp.com",
+            databaseURL: "https://esp8266dht11-database-default-rtdb.firebaseio.com",
+            projectId: "esp8266dht11-database",
+            storageBucket: "esp8266dht11-database.firebasestorage.app",
+            messagingSenderId: "130780211373",
+            appId: "1:130780211373:web:69972ce33289022ec2fe24",
+            measurementId: "G-MVCW7S4FYF"
+        };
+
+        // Inicializa Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+
+        // Ahora puedes usar los servicios de Firebase, por ejemplo:
+        // const auth = firebase.auth();
+        // const db = firebase.firestore();
+    </script>
+</body>
+</html>
